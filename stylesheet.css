@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("img/andysroom.jpg");
+    font-family: 'Courier New', 'Times New Roman';
+}
+
+
+
+legend {
+    background-color: #f00;
+    color: #eab796;
+    border: solid;
+    border-color: #444;
+    border-width: 1px;
+    border-radius: 10;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Courier New', 'Times New Roman';
+}
+
+form {
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: #f00;
+    border: solid;
+    border-color: #900;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #999;
+}
+
+fieldset {
+    background-color: #DCDCDC;
+}
+
+
+#main {
+    text-align: center;
+}
+
+#frame {
+    height: 41vw;
+    width: 41vw;
+    background-color: #f00;
+    margin: auto;
+    border: solid;
+    border-color: #900;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #999;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Courier New', 'Times New Roman';
+    font-size: 40px;
+    color: #eab796;
+    line-height: 3vw;
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#grid {
+    height: 35vw;
+    width: 35vw;
+    border: solid;
+    border-color: #444;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}
+
+#clear {
+    position: absolute;
+    right: 60%;
+    top: 87.5%;
+}
+
+#resize {
+    position: absolute;
+    left: 60%;
+    top: 87.5%
+}
+
+#buttons {
+    /*display: flex;*/
+    padding-top: 25px;
+}
+
+#clear {
+    position: absolute
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.cell {
+    display: flex;
+    flex: 1;
+}
+
+.button {
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px #555;
+    font-family: 'Courier New', 'Times New Roman'
+}
+
+.button:hover {
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 4px 4px #555;
+}
+
+.black {
+    background-color: black;
+}
